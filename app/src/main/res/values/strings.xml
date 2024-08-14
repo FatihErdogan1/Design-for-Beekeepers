@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Beekeepers</string>
+
+    <string-array name="sorting_options">
+        <item>Eskiye Yeniye</item>
+        <item>Yeniye Eskiye</item>
+        <item>A dan Z ye</item>
+        <item>Z den Aya</item>
+    </string-array>
+</resources>
