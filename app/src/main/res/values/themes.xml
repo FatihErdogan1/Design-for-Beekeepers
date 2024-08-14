@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Beekeepers" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/PrimaryColor</item> <!-- Varsayılan buton arka plan rengi -->
+        <item name="android:colorBackground">#F1F1F6</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="colorPrimaryVariant">#7B642B</item>
+        <item name="colorOnPrimary">@color/black</item> <!-- Buton üzerindeki yazı rengi -->
+        <item name="android:textColorHint">#827C7C</item> <!-- Hint rengi burada belirlenir -->
+
+
+
+    </style>
+
+
+    <style name="Theme.Beekeepers" parent="Base.Theme.Beekeepers" />
+</resources>

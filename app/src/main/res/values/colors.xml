@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="PrimaryColor">#D4BB77</color>
+    <color name="TextColorHome">#6E5311</color>
+    <color name="NewColor">#FF0000</color>
+    <color name="OldColor">#00FF00</color>
+    <color name="NormalColor">#0000FF</color>
+    <color name="UnusualColor">#FF00FF</color>
+    <color name="CleanFilterColor">#00FFFF</color>
+
+
+
+</resources>
