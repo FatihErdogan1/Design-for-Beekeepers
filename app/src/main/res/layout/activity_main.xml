@@ -13,6 +13,7 @@
         android:id="@+id/imageView5"
         android:layout_width="match_parent"
         android:layout_height="150dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,8 +22,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/userInformation"
-        android:layout_width="405dp"
-        android:layout_height="108dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -44,8 +45,8 @@
             android:id="@+id/imageView11"
             android:layout_width="75dp"
             android:layout_height="51dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -55,14 +56,14 @@
             android:id="@+id/textView7"
             android:layout_width="274dp"
             android:layout_height="23dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="28dp"
             android:layout_marginEnd="16dp"
 
             android:layout_weight="1"
             android:text="Selver KORKMAZ"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/imageView11"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -77,57 +78,9 @@
             app:layout_constraintStart_toEndOf="@+id/imageView11"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="31dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="16dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:srcCompat="@drawable/edit" /> />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginStart="1dp"
-        android:background="#D3BA77"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/home" />
-
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="90dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/menu" />
-
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="83dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/surveyicon" />
-
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/logout" />
-
-    </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
@@ -152,13 +105,13 @@
 
     <GridView
         android:id="@+id/gridLayout"
-        android:layout_width="match_parent"
-        android:layout_height="436dp"
+        android:layout_width="413dp"
+        android:layout_height="385dp"
         android:gravity="center"
 
         android:numColumns="2"
 
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -176,6 +129,14 @@
         app:layout_constraintBottom_toTopOf="@+id/gridLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/userInformation" />
+    <include
+        android:id="@+id/toolbar_layout_top"
+        layout="@layout/toolbar_layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

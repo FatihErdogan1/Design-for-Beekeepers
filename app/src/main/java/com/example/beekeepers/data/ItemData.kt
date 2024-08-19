@@ -1,4 +1,4 @@
-package com.example.beekeepers
+package com.example.beekeepers.data
 
 data class ItemData(
     val imageResId: Int,

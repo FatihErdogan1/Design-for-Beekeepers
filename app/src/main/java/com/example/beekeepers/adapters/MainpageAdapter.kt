@@ -1,10 +1,12 @@
-package com.example.beekeepers
+package com.example.beekeepers.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import com.example.beekeepers.data.ItemData
+import com.example.beekeepers.R
 import com.example.beekeepers.databinding.ActivityMainBinding
 
 class MainpageAdapter(private val context: Context, private val items: List<ItemData>) : BaseAdapter()

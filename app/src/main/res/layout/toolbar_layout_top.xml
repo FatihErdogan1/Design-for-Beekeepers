@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="43dp"
+    android:background="#D3BA77"
+    android:orientation="horizontal"
+    android:id="@+id/toolbar_layout_top"
+    tools:layout_editor_absoluteX="-16dp"
+    tools:layout_editor_absoluteY="-1dp"
+    tools:ignore="MissingConstraints"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageViewMenu"
+        android:layout_width="50dp"
+        android:layout_height="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/menu"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <TextView
+        android:id="@+id/textViewProjectName"
+        android:layout_width="197dp"
+        android:layout_height="28dp"
+        android:layout_weight="1"
+        android:text="TOP4HONEYCHAINS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView14"
+        app:layout_constraintStart_toEndOf="@+id/imageViewMenu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="74dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
